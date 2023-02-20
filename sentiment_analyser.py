@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 st.title('Sentiment Analyser App')
-st.write('This app uses the Hugging Face Transformers library to clasify the sentiment of your input as postive or negative. The web app is built using [Streamlit](https://docs.streamlit.io/en/stable/getting_started.html).')
+st.write('This app uses the Hugging Face Transformers library to clasify the sentiment of your input as postive or negative.')
 
 st.write('*Note: it will take up to 30 seconds to run the app.*')
 
